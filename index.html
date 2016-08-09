@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo Can Component</title>
+	<link rel="stylesheet" href="entireframework.min.css">
+</head>
+<body style="margin: 0 auto; width: 80%">
+	<script id="tpl-btn" type="text/mustache">
+		<display></display>
+		{{#each botones}}
+			<boton></boton>
+		{{/each}}
+	</script>
+	<div id="app" style="width:200px; text-align: center;"></div>
+	<script src="zepto.js"></script>
+	<script src="event.js"></script>
+	<script src="ajax.js"></script>
+	<script src="can.zepto.min.js"></script>
+	<script src="can.stache.js"></script>
+	<script src="calculadora.js"></script>
+</body>
+</html>
